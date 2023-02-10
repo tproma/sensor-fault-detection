@@ -7,4 +7,5 @@ PyYAML
 scipy
 dill
 imblearn==0.0
+xgboost
 -e .
