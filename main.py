@@ -57,7 +57,8 @@ async def predict_route():
       ###
       ###
       df = None
-      ModelResolver
+      
+      
       model_resolver = ModelResolver(model_dir = SAVED_MODEL_DIR)
       if not model_resolver.is_model_exists():
          return Response("Model is not available.")
